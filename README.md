@@ -1,11 +1,18 @@
-# Node.js and Express Hosted on Microsoft Azure Template
+# CPSC 44000: Web Dice Roll
 
-Dependencies: Node.js and Express
+## Author
+Jefferson Cherrington **(@jacnok)**
 
-This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft Azure.
+## Origin
+This repository is based off a Azure hosted website template, originally created by Prof. Eric Pogue **(@EricJPogue)**.
 
-Initial Usage:
-- npm install express
-- npm start
+## Purpose
+This webpage is intended to be a playful introduction to vanilla JavaScript, but I have extended it with Processing via p5.js.
+
+## Dependencies
+Node.js, Express, and p5.js
+
+## How to Access
+Visit this link: [s2-diceroll-jac.azurewebsites.net](https://s2-diceroll-jac.azurewebsites.net)
 
 
