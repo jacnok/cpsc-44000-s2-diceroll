@@ -204,8 +204,8 @@ footer:hover span:after {
     text-underline-offset: .1rem;
   }
 
-@media (min-width: 750px) and (max-width: 850px) {
+/* @media (min-width: 750px) and (max-width: 850px) {
     .grid-container{margin-left: calc(50vw - 350px);
     transition: all ease .125s;}
     
-  }
+  } */
