@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+		<title>Sprint 2 | Web Dice Roll</title>
+		<meta name="viewport" content="width=device-width, height=device-height, viewport-fit=cover, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+        <script src="main.js"></script>
+        <script src="sketch.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+    </head>
+
+    <body onload="calcDiceRoll()">
+        <div class = "content">
+        <header>
+        <h1>
+            Web Dice Roll
+        </h1>
+        <p>
+            <q>Roll your dice.</q>
+            <br><br>
+            Clicking on a number will enable or disable the dice that it simulates:
+        </p>
+        </header>
+        
+        <div class = "grid-container">
+            <div class = "box">
+                <button id = "dice_1" onclick="changeDiceType(1)">0</button>
+            </div>
+            <div class = "box">
+                <button id = "dice_2" onclick="changeDiceType(2)">0</button>
+            </div>
+            <div class = "box">
+                <button id = "dice_3" onclick="changeDiceType(3)">0</button>
+            </div>
+            <div class = "box">
+                <button id = "dice_4" onclick="changeDiceType(4)">0</button>
+            </div>
+            <div class = "box">
+                <button id = "dice_5" onclick="changeDiceType(5)">0</button>
+            </div>
+        </div>
+    
+        <div>
+            <button class = "cta" onclick="calcDiceRoll()" autofocus>
+                Roll Me
+            </button>
+        </div>
+    
+        <!-- borrowed this idea from: https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link -->
+        <footer onclick='location.href = "https://www.google.com";'>
+            <a href = "https://www.google.com">back to the portfolio <span></span></a>
+        </footer>
+        </div>
+    </body>
+    </html>	
